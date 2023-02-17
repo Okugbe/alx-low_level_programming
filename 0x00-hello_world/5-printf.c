@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main -Entry point
- * A C program using "printf" to print a string.
- * return: 0 (Success)
+ * main - A C program using to print a string.
+ * Return: 0 (Success)
  */
 int main(void)
 {
