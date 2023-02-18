@@ -2,12 +2,12 @@
 /**
  * main - alphabet backwards
  *
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char back
-		;
+	char back;
+
 	back = 'z';
 	while (back >= 'a')
 	{
