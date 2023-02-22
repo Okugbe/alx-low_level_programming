@@ -23,10 +23,9 @@ for (number = 0; number <= 9; number++)
 		else
 		{
 			_putchar((product / 10) + '0');
-			_putchar((product % 10) + '0');
 		}
-		_putchar('\n');
+		_putchar((product % 10) + '0');
 	}
-
+	_putchar('\n');
 }
 }
