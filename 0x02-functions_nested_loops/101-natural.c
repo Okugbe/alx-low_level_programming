@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main -  prints the sum of all the multiples of 3 or 5 below 1024 (excluded),
+ * Return: Always 0
+ */
+int main(void)
+{
+	int n = 0;
+	int sum = 0;
+
+	while (n < 10240)
+	{
+		if (n % 3 == 0 || n % 5 == 0)
+		{
+			sum += n;
+		}
+		n++;
+	}
+	printf("%i\n", sum);
+	return (0);
+}
